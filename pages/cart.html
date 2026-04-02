@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- ===== META INFORMATION ===== -->
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Shahrukh Ahmadi" name="author" />
+    <!-- ===== SITE TITLE ===== -->
+    <title>Shop.co | Cart</title>
+    <!-- ===== CSS ===== -->
+    <link href="../css/global.css" rel="stylesheet" />
+    <link href="../css/cart.css" rel="stylesheet" />
+    <!-- ===== FONT AWESOME CDN -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- ===== GOOGLE FONTS ===== -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ===== HEADER ===== -->
+    <header>
+      <div class="header-top">
+        <p>
+          Sign up and get 20% off to your first order.
+          <a href="#">Sign Up Now</a>
+        </p>
+      </div>
+      <!-- / header-top -->
+      <div class="header-bottom">
+        <div class="container">
+          <div class="navbar">
+            <button class="menu"><i class="fa-solid fa-bars"></i></button>
+            <a href="../index.html"
+              ><img alt="site logo" class="logo" src="../images/logo.svg"
+            /></a>
+            <nav>
+              <ul class="nav-list">
+                <li>
+                  <a href="#">Shop<i class="fa-solid fa-chevron-down"></i></a>
+                </li>
+                <li><a href="#">On Sale</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Brands</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!-- / navbar -->
+          <div class="box">
+            <div class="search-box">
+              <input
+                id="search"
+                placeholder="Search for products..."
+                type="search"
+              />
+            </div>
+            <!-- / search-box -->
+            <div class="sign-in">
+              <button class="search-mobile">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a href="#"><i class="fa-solid fa-circle-user"></i></a>
+            </div>
+          </div>
+          <!-- / box -->
+        </div>
+        <!-- / container -->
+      </div>
+      <!-- / header-bottom -->
+      <hr />
+    </header>
+    <!-- ===== MAIN ===== -->
+    <main>
+      <div class="container navbar">
+        <a href="../index.html">Home<i class="fa-solid fa-angle-right"></i></a>
+        <a href="#" class="active">Cart</a>
+      </div>
+      <!-- / navbar -->
+      <section class="cart-details">
+        <div class="container">
+          <h1>Your cart</h1>
+          <div class="cart-wrapper">
+            <div class="cart-items">
+              <div class="wrapper">
+                <div class="wrapper-left">
+                  <img alt="" src="../images/Gradient-Graphic-T-shirt.png" />
+                </div>
+                <div class="wrapper-right">
+                  <div class="name-wrapper">
+                    <strong>Gradient Graphic T-shirt</strong>
+                    <button><img alt="" src="../images/trash.svg" /></button>
+                  </div>
+                  <p class="details">Size: <span>Large</span></p>
+                  <p class="details">Color: <span>White</span></p>
+                  <div class="price-wrapper">
+                    <p class="price">$145</p>
+                    <div class="amount">
+                      <button><i class="fa-solid fa-minus"></i></button>
+                      <p>1</p>
+                      <button><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wrapper">
+                <div class="wrapper-left">
+                  <img alt="" src="../images/CHECKERED-SHIRT.png" />
+                </div>
+                <div class="wrapper-right">
+                  <div class="name-wrapper">
+                    <strong>Checkered Shirt</strong>
+                    <button><img alt="" src="../images/trash.svg" /></button>
+                  </div>
+                  <p class="details">Size: <span>Medium</span></p>
+                  <p class="details">Color: <span>Red</span></p>
+                  <div class="price-wrapper">
+                    <p class="price">$180</p>
+                    <div class="amount">
+                      <button><i class="fa-solid fa-minus"></i></button>
+                      <p>1</p>
+                      <button><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="wrapper">
+                <div class="wrapper-left">
+                  <img alt="" src="../images/SKINNY-FIT-JEANS.png" />
+                </div>
+                <div class="wrapper-right">
+                  <div class="name-wrapper">
+                    <strong>Skinny Fit Jeans</strong>
+                    <button><img alt="" src="../images/trash.svg" /></button>
+                  </div>
+                  <p class="details">Size: <span>Large</span></p>
+                  <p class="details">Color: <span>Blue</span></p>
+                  <div class="price-wrapper">
+                    <p class="price">$240</p>
+                    <div class="amount">
+                      <button><i class="fa-solid fa-minus"></i></button>
+                      <p>1</p>
+                      <button><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / cart-items -->
+            <div class="cart-summary">
+              <h3>Order Summary</h3>
+              <div class="details">
+                <p>Subtotal</p>
+                <strong>$565</strong>
+              </div>
+              <div class="details">
+                <p>Discount (-20%)</p>
+                <strong class="red">-$113</strong>
+              </div>
+              <div class="details">
+                <p>Delivery Fee</p>
+                <strong>$15</strong>
+              </div>
+              <hr />
+              <div class="total">
+                <p>Total</p>
+                <strong>$467</strong>
+              </div>
+              <div class="apply-btn">
+                <form>
+                  <input
+                    id="promo-code"
+                    placeholder="Add promo code"
+                    type="text"
+                  />
+                  <input id="apply" type="submit" value="Apply" />
+                </form>
+              </div>
+              <button class="checkout">
+                Go to Checkout<i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+            <!-- / cart-summary -->
+          </div>
+          <!-- / wrapper -->
+        </div>
+        <!-- / container -->
+      </section>
+      <!-- / cart-details -->
+    </main>
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <div class="newsletter">
+        <div class="newsletter-container container">
+          <div class="newsletter-text">
+            <h3>STAY UPTO DATE ABOUT OUR LATEST OFFERS</h3>
+          </div>
+          <div class="newsletter-form">
+            <form autocomplete="on">
+              <input
+                id="email"
+                placeholder="Enter your email address"
+                type="email"
+              />
+              <input
+                id="submit"
+                type="submit"
+                value="Subscribe to Newsletter"
+              />
+            </form>
+          </div>
+        </div>
+        <!-- / newsletter-container -->
+      </div>
+      <!-- / newsletter -->
+      <div class="footer-container">
+        <div class="container">
+          <div class="footer-columns">
+            <div class="footer-columns-left">
+              <img alt="" loading="lazy" src="../images/logo.svg" />
+              <p>
+                We have clothes that suits your style and which you’re proud to
+                wear. From women to men.
+              </p>
+              <div class="socials">
+                <a class="socials-item" href="#" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a class="socials-item" href="#" target="_blank">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a class="socials-item" href="#" target="_blank">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="socials-item" href="#" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+              <!-- / socials -->
+            </div>
+            <!-- / footer-columns-left -->
+            <div class="footer-columns-right">
+              <div class="columns-right-list">
+                <p><strong>Company</strong></p>
+                <ul>
+                  <li><a href="#" target="_blank">About</a></li>
+                  <li><a href="#" target="_blank">Features</a></li>
+                  <li><a href="#" target="_blank">Works</a></li>
+                  <li><a href="#" target="_blank">Career</a></li>
+                </ul>
+              </div>
+              <div class="columns-right-list">
+                <p><strong>Help</strong></p>
+                <ul>
+                  <li><a href="#" target="_blank">Customer Support</a></li>
+                  <li><a href="#" target="_blank">Delivery Details</a></li>
+                  <li><a href="#" target="_blank">Terms & Conditions</a></li>
+                  <li><a href="#" target="_blank">Privacy Policy</a></li>
+                </ul>
+              </div>
+              <div class="columns-right-list">
+                <p><strong>FAQ</strong></p>
+                <ul>
+                  <li><a href="#" target="_blank">Account</a></li>
+                  <li><a href="#" target="_blank">Manage Deliveries</a></li>
+                  <li><a href="#" target="_blank">Orders</a></li>
+                  <li><a href="#" target="_blank">Payments</a></li>
+                </ul>
+              </div>
+              <div class="columns-right-list">
+                <p><strong>Resources</strong></p>
+                <ul>
+                  <li><a href="#" target="_blank">Free eBooks</a></li>
+                  <li><a href="#" target="_blank">Development Tutorial</a></li>
+                  <li><a href="#" target="_blank">How to - Blog</a></li>
+                  <li><a href="#" target="_blank">YouTube Playlist</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- / footer-columns-right -->
+          </div>
+          <!-- / footer-columns -->
+          <div class="copyright">
+            <p>Shop.co © 2000-2023, All Rights Reserved</p>
+            <div class="payment">
+              <a href="#" target="_blank"
+                ><img alt="" loading="lazy" src="../images/visa.svg"
+              /></a>
+              <a href="#" target="_blank"
+                ><img alt="" loading="lazy" src="../images/Badge.svg"
+              /></a>
+              <a href="#" target="_blank"
+                ><img alt="" loading="lazy" src="../images/paypal.svg"
+              /></a>
+              <a href="#" target="_blank">
+                <img alt="" loading="lazy" src="../images/apple-pay.svg"
+              /></a>
+              <a href="#" target="_blank"
+                ><img alt="" loading="lazy" src="../images/google-pay.svg"
+              /></a>
+            </div>
+            <!-- / payment -->
+          </div>
+          <!-- / copyright -->
+        </div>
+        <!-- / container -->
+      </div>
+      <!-- / footer-container -->
+    </footer>
+  </body>
+</html>
